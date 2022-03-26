@@ -1,0 +1,18 @@
+.post{
+  &+&{
+    border-top: 1px solid #f0f0f0;
+  }
+}
+
+.post__title{
+  &::first-letter{
+    text-transform: uppercase;
+  }
+}
+
+.post__text{
+  &::first-letter{
+    text-transform: uppercase;
+  }
+}
+
